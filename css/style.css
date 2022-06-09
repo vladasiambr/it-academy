@@ -1,0 +1,31 @@
+body {
+  font-family: "RobotoSlab", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "RobotoSlab";
+  font-weight: 400;
+  src: url("/fonts/RobotoSlab-Regular.ttf") format("truytype");
+}
+@font-face {
+  font-family: "RobotoSlab";
+  font-weight: 700;
+  src: url("/fonts/RobotoSlab-Bold.ttf") format("truytype");
+}
+
+.text {
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+.photo {
+  text-align: center;
+}
+
+.nameSong {
+  text-align: center;
+}
