@@ -43,6 +43,7 @@ body {
 .main {
   padding: 20px;
   width: 85%;
+  background: url(../img/Slice\ 1.png) repeat-y right;
 }
 
 .football {
