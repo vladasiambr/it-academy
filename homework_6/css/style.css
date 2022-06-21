@@ -1,0 +1,19 @@
+ li{
+  list-style-type: none;
+   display:inline;
+
+}
+a {
+  color: green;
+  border-right: solid red 5px ;
+  padding: 10px;
+  }
+ ul{
+  padding: 20px;
+ }
+ 
+li:last-child a{
+border:none;
+ }
+  
+ 
