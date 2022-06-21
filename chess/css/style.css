@@ -53,6 +53,30 @@ background: url('../img/star1.png');
 .infarmation::before{
 content: url(../img/extref.png);
 }
-main{
-  
+
+.infarmation{
+font-weight: bold;
 }
+
+main h4 p{
+  color:green;
+}
+ p + p + p{
+  color: blue;  
+}
+ .birthday{
+  color: green;
+ }
+  p + p {
+  color:red;  
+  }
+
+  a{
+  color: blue;
+  font-weight:bold;
+  text-decoration: none;
+  }
+  .infa{
+    font-family:'Times New Roman';
+    font-style: italic;
+  }
