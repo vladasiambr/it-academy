@@ -35,6 +35,11 @@ background-color: black;
   background-color:black;
 }
 
+.stars{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
 
 .star{
 background: url('../img/star0.png');
