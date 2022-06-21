@@ -49,3 +49,10 @@ height: 78px;
 background: url('../img/star1.png');
 	
  }
+
+.infarmation::before{
+content: url(../img/extref.png);
+}
+main{
+  
+}
