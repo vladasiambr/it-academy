@@ -35,14 +35,17 @@ background-color: black;
   background-color:black;
 }
 
-p a.star{
+
+.star{
 background: url('../img/star0.png');
 display:inline-block;
 width: 75px;
 height: 78px;
 }
-p a.star:hover{
-  background: url('../img/star1.png');
-  background-repeat: repeat-x;
-  background-position:left ;
+
+.star:hover,
+.star:hover ~ .star,
+.star:checked ~.star:hover{
+background: url('../img/star1.png');
+	
  }
