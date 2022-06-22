@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 0;
+  margin: 0;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.hader {
+  background-color: #97e6f7;
+  color: blue;
+  text-align: center;
+  padding: 3px;
+}
+
+.sidebar {
+  background-color: #fcff4d;
+  padding-right: 47px;
+  width: 200px;
+  max-width: 200px;
+}
+
+.wrapper {
+  flex: 1 1 auto;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.footer {
+  background-color: #97e6f7;
+  text-align: center;
+  color: blue;
+  padding: 10px;
+}
+
+.main {
+  padding: 20px;
+  width: 85%;
+  background: url(../img/Slice\ 1.png) repeat-y right;
+}
+
+.football {
+  float: left;
+  padding: 0px;
+  margin-right: 20px;
+}
+.text {
+  clear: none;
+}
+
+.logo {
+  text-align: center;
+}
+
+a {
+  color: blue;
+}
