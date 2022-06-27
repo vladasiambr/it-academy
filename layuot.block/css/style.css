@@ -22,7 +22,7 @@ body {
   background-color: #fcff4d;
   padding-right: 47px;
   width: 200px;
-  max-width: 200px;
+ 
 }
 
 .wrapper {
@@ -78,4 +78,8 @@ a {
   .content {
     flex-wrap: wrap;
   }
+ .sidebar{
+  width: 100vw;
+ }
+
 }
