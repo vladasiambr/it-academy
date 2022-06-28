@@ -1,85 +1,35 @@
-* {
-  box-sizing: border-box;
-}
-body {
-  height: 0;
-  margin: 0;
-}
-.layout {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+
+img {
+  position: absolute;
 }
 
-.header {
-  background-color: #97e6f7;
-  color: blue;
-  text-align: center;
-  padding: 3px;
+img:hover {
+  z-index: 1;
+}
+.biohazard {
+  margin-left: 500px;
 }
 
-.sidebar {
-  background-color: #fcff4d;
-  padding-right: 47px;
-  width: 200px;
- 
+.Man-and-woman {
+  margin-left: 450px;
+  margin-top: 200px;
 }
 
-.wrapper {
-  flex: 1 1 auto;
-}
-.content {
-  display: flex;
-
-  min-height: 100vh;
+.No_smoking {
+  margin-left: 550px;
+  margin-top: 100px;
 }
 
-.footer {
-  flex-wrap: wrap;
-  background-color: #97e6f7;
-  text-align: center;
-  color: blue;
-  padding: 10px;
+.Yin_and_Yang {
+  margin-left: 670px;
+  margin-top: 200px;
+}
+.second {
+margin-top: 100vh;
 }
 
-.main {
-  padding: 20px;
-  width: 85%;
-}
-
-.football {
-  float: left;
-  padding: 0px;
-  margin-right: 20px;
-}
-.text {
-  clear: none;
-}
-
-.logo {
-  text-align: center;
-}
-
-a {
-  color: blue;
-}
-.club {
-  position: fixed;
-  background-color: limegreen;
-  border: solid 1px green;
-  padding: 5px 20px;
-  text-align: center;
-  top:10% ;
-  right: 9%;
-  
-}
-
-@media (max-width: 576px) {
-  .content {
-    flex-wrap: wrap;
-  }
- .sidebar{
-  width: 100vw;
+@media(min-width: 1440px){
+ picture{
+  margin-right: 1em;
  }
-
 }
