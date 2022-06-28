@@ -1,10 +1,25 @@
+.header {
+  display: grid;
+  grid-template-columns: 110px 1fr repeat(2, max-content);
+
+}
+
 .header__logo {
-    display: none;
+  visibility: hidden;
 }
 
-
-@media screen and (max-width: 768px)  {
-    .header__logo {
-        display: block;
-    }
+@media screen and (max-width: 768px) {
+  .header__logo {
+    display: block;
+  }
 }
+.header__search-voise {
+  margin-left: 8px;
+}
+
+.header__controls {
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  grid-column-gap: 20px;
+}
+

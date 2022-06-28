@@ -1,0 +1,28 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+}
+.search-form__input {
+  background: transparent;
+  height: 36px;
+  width: 478px;
+  border: 1px solid var(--color-black-32);
+  border-radius: none;
+  padding: 10px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+}
+.search-form__search-button {
+  width: 56px;
+  height: 36px;
+  border: none;
+  background: var(--color-black-32);
+  border-radius: 0 2px 2px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.search-form__search-button:hover {
+  background-color: var(--color-black-47);
+}
