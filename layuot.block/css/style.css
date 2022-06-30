@@ -1,35 +1,21 @@
-
-img {
+picture {
   position: absolute;
 }
 
-img:hover {
+picture:hover {
   z-index: 1;
 }
-.biohazard {
-  margin-left: 500px;
-}
-
-.Man-and-woman {
-  margin-left: 450px;
-  margin-top: 200px;
-}
-
-.No_smoking {
-  margin-left: 550px;
-  margin-top: 100px;
-}
-
-.Yin_and_Yang {
-  margin-left: 670px;
-  margin-top: 200px;
-}
 .second {
-margin-top: 100vh;
+  margin-top: 100vh;
 }
 
-@media(min-width: 1440px){
- picture{
-  margin-right: 1em;
- }
+@media (min-width: 1440px) {
+ .biohazard {
+  left: calc(500px- 1px); 
+  }
+}
+
+.biohazard {
+  border: solid 1px red;
+  left: 500px;
 }
