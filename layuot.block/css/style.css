@@ -1,0 +1,11 @@
+aside{
+  border:solid 5px red;
+  overflow-y: scroll;
+  width: 400px;
+  height: 600px;
+  padding: 5px;
+}
+
+.logo {
+  text-align: center;
+}
