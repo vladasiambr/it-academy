@@ -1,0 +1,29 @@
+aside{
+  border:solid 5px red;
+  overflow-y: scroll;
+  width: 400px;
+  height: 600px;
+  padding: 5px;
+  background-color: black;
+}
+
+.logo {
+  text-align: center;
+  color: aliceblue;
+}
+
+a{
+  color: blueviolet;
+}
+a:active{
+  color:red
+}
+a:visited{
+color: blue;
+}
+
+picture{
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+}
