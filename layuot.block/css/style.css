@@ -1,0 +1,9 @@
+polygon:hover{
+ fill:blue;
+ stroke:brown;
+}
+
+svg:hover {
+width: 500px;
+height: 450px;
+}
