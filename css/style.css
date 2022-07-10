@@ -1,0 +1,35 @@
+*{
+  margin:2px 5px 2px 5px;
+  
+}
+
+.input {
+  border: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  border: double red 5px;
+}
+
+
+.text{
+border: none;
+}
+
+
+.publication{
+
+margin:5px;
+}
+
+.article-text{
+  margin: 0;
+}
+
+@media (max-width:768px){
+ .publication{
+width: 105px;
+  }
+}
